@@ -27,7 +27,7 @@ object PortfolioRepository {
         location = "Open to Remote & Global Opportunities",
         currentRole = "Senior Full-Stack Engineer",
         email = "sahadev.mahanta@gmail.com",
-        phone = "+1 (555) 382-9014",
+        phone = "9853038384",
         githubUrl = "https://github.com/sahadev-1893",
         linkedinUrl = "https://linkedin.com/in/sahadev-mahanta",
         telegramUrl = "https://t.me/sahadev_mahanta",

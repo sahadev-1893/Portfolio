@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle glow ring around developer icon -->
+    <path
+        android:strokeColor="#33FFFFFF"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M 54,32 A 22,22 0 1,1 53.99,32" />
+
+    <!-- Left code angle bracket < -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 45,46 L 37,54 L 45,62" />
+
+    <!-- Center forward slash / -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:pathData="M 51,64 L 57,44" />
+
+    <!-- Right code angle bracket > -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 63,46 L 71,54 L 63,62" />
+
+    <!-- Minimal top accent dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,36 A 1.8,1.8 0 1,1 53.99,36" />
+</vector>

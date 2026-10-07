@@ -120,7 +120,7 @@ fun ExperienceScreen(
                         )
                         Spacer(modifier = Modifier.height(4.dp))
                         Text(
-                            text = "5+ Years Full Stack",
+                            text = "${PortfolioRepository.profile.experienceYears} Years Full Stack",
                             style = MaterialTheme.typography.titleLarge.copy(
                                 fontWeight = FontWeight.Bold
                             ),

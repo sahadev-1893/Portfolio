@@ -186,7 +186,7 @@ fun ResumeScreen(
                     // Professional Summary
                     ResumeSectionHeader("PROFESSIONAL SUMMARY")
                     Text(
-                        text = "Results-driven Full-Stack Engineer with over 5 years of production experience designing, deploying, and maintaining high-availability web and mobile architectures. Expert in modern React/Next.js frontends, event-driven Go and Node.js microservices, and automated DevOps workflows.",
+                        text = "Results-driven Full-Stack Engineer with over 10 years of production experience designing, deploying, and maintaining high-availability web and mobile architectures. Expert in modern React/Next.js frontends, event-driven Go and Node.js microservices, and automated DevOps workflows.",
                         style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 22.sp),
                         color = MaterialTheme.colorScheme.onSurface
                     )

@@ -25,8 +25,8 @@ class ExampleRobolectricTest {
   @Test
   fun `verify portfolio repository has complete data`() {
     val profile = PortfolioRepository.profile
-    assertEquals("Alex Vance", profile.name)
-    assertEquals("AV", profile.initials)
+    assertEquals("Sahadev Mahanta", profile.name)
+    assertEquals("SM", profile.initials)
     assertEquals("FULL-STACK DEVELOPER", profile.jobTitle)
 
     val projects = PortfolioRepository.projects

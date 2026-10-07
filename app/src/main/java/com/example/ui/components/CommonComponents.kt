@@ -38,8 +38,8 @@ import com.example.ui.theme.*
  */
 @Composable
 fun PortfolioTopBar(
-    title: String = "ALEX VANCE",
-    subtitle: String = "FULL-STACK DEVELOPER",
+    title: String = com.example.data.PortfolioRepository.profile.name.uppercase(),
+    subtitle: String = com.example.data.PortfolioRepository.profile.jobTitle,
     onOpenResume: () -> Unit = {},
     onOpenSettings: () -> Unit = {},
     modifier: Modifier = Modifier
@@ -76,7 +76,7 @@ fun PortfolioTopBar(
                 contentAlignment = Alignment.Center
             ) {
                 Text(
-                    text = "AV",
+                    text = com.example.data.PortfolioRepository.profile.initials,
                     style = MaterialTheme.typography.labelMedium.copy(
                         fontWeight = FontWeight.Bold,
                         color = MaterialTheme.colorScheme.onSurface

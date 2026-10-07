@@ -227,7 +227,7 @@ fun SettingsScreen(
                                 action = Intent.ACTION_SEND
                                 putExtra(
                                     Intent.EXTRA_TEXT,
-                                    "Take a look at Alex Vance's Full-Stack Developer Portfolio: https://github.com/developer/portfolio"
+                                    "Take a look at ${PortfolioRepository.profile.name}'s Full-Stack Developer Portfolio: https://github.com/sahadev-1893/Portfolio"
                                 )
                                 type = "text/plain"
                             }
